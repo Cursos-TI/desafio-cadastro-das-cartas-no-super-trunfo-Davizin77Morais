@@ -13,23 +13,23 @@ int main() {
     printf("=== Cadastro de Cidade 1 ===\n");
 
     // Estado
-    printf("Informe o Estado (letra de A a H): ");
+    printf("Informe o Estado (letra de A a H): \n");
     scanf(" %s", &estado);
 
     // Código da Carta
-    printf("Informe o Código da Carta (ex: A01): ");
+    printf("Informe o Código da Carta (ex: A01): \n");
     scanf("%s", &codigoCarta);
 
     // Nome da Cidade
-    printf("Informe o Nome da Cidade:  ");
+    printf("Informe o Nome da Cidade:  \n");
     scanf(" %s", nomeCidade);
 
     // População
-    printf("Informe a População: ");
+    printf("Informe a População: \n");
     scanf("%lu", &populacao);
 
     // Área
-    printf("Informe a Área: ");
+    printf("Informe a Área: \n");
     scanf("%f", &area);
 
     //densidade demográfica
@@ -37,7 +37,7 @@ int main() {
     printf("A densidade demográfica é: %.2f\n", densidadeDemografica);
 
     // PIB
-    printf("Informe o PIB: ");
+    printf("Informe o PIB: \n");
     scanf("%f", &pib);
 
     //pib per capita
